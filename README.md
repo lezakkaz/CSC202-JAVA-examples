@@ -19,10 +19,16 @@ To run an example, open the corresponding directory in your IDE and run the main
 
 - **Chapter 11 - Inheritance and Polymorphism:** Examples of how to use inheritance polymorphism in Java, including upcasting and downcasting.
 
-- **Chapter 12~17**: TBA
+- **Chapter 12 - Exception Handeling and Text IO:** Examples of how to handle errors/exception in your code followed by few examples on how to read different type of files.
+
+- **Chapter 13 - Abstract Classes and Interfaces:** Examples of how to use Abstract classes and Interfaces.
+
+- **Chapter 14 - Concurency and Multi-threading:** Examples on how to concurrently run mutiple threads using java.
+
+- **Chapter 15~17 - Graphical User Interface:** Examples on how to create GUIs using JavaFX as well as other libraries.
 
 ### Contributing
 If you have an example that you'd like to contribute to this repository, please fork the repository and submit a pull request. Make sure to include a description of the example and any relevant comments in the code.
 
 ### Source
-All these examples were generated using ChatGPT
+Most examples were generated using ChatGPT
