@@ -1,3 +1,12 @@
+/*
+In this example, we create two threads by extending the Thread class directly. The MyThread class represents a thread and overrides the run() method to define the behavior of the thread. Each thread prints its name five times with a 1-second pause between each print using Thread.sleep().
+
+Similar to the previous example, the main thread will also print its own name five times with a 1-second pause between each print. As a result, you'll see interleaved output from the two threads and the main thread.
+
+Note: As with any multithreaded program, the output may vary on different runs due to the scheduling and execution nature of threads.
+
+*/
+
 class Calculation implements Runnable {
     int[] numbers;
     int start;
