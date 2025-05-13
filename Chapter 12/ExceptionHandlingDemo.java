@@ -22,7 +22,6 @@ public class ExceptionHandlingDemo {
 
     static void methodThatThrows(int input) throws ArithmeticException, NullPointerException, IOException {
         System.out.println("Inside methodThatThrows");
-
         if (input == 1) {
             throw new ArithmeticException("Divide by zero simulation");
         } else if (input == 2) {
