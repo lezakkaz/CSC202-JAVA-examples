@@ -4,7 +4,6 @@ public class ExceptionHandlingDemo {
 
     public static void main(String[] args) {
         System.out.println("Before try block");
-
         try {
             methodThatThrows(5); // Change this value to 1, 2, or 3 to test different paths
             System.out.println("In the middle of try block");
